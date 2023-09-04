@@ -2,6 +2,6 @@ import { config } from 'dotenv';
 
 // read .env.local variables
 config({
-  path: '.env.local',
+  path: './.env.local',
   debug: true,
 });
